@@ -1,0 +1,27 @@
+# Archivos ejecutables generados por 'go build'
+# El nombre del ejecutable se basa en el nombre del módulo.
+# Si el ejecutable se llama 'mi-programa', también puedes añadir:
+# /mi-programa
+# /mi-programa.exe
+
+# Archivos de caché de Go
+/go.sum
+/go.mod
+
+# Binarios y objetos de compilación
+*.o
+*.a
+*.so
+*.dll
+*.exe
+
+# Cache de paquetes de Go
+/pkg/
+
+# Dependencias de Go (si usas un sistema de gestión de dependencias antiguo)
+/vendor/
+
+# Archivos de IDE y editores
+.idea/
+.vscode/
+.DS_Store
